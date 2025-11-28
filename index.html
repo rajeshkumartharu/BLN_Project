@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title & Description -->
+    <title>BLN Construction Pvt. Ltd | Road, Building & Bridge Construction in Nepal</title>
+    <meta name="description" content="BLN Construction Pvt. Ltd is a leading construction company in Nepal specializing in roads, buildings, bridges, drainage systems, earthworks, gravel and sand supply. Quality projects delivered on time.">
+    <meta name="keywords" content="construction company Nepal, road construction Nepal, bridge construction, drainage construction, building contractor Nepal, civil engineering Nepal, infrastructure company Nepal, BLN Construction, sand supply, gravel supply">
+    <meta name="author" content="BLN Construction Pvt. Ltd">
+    <meta name="robots" content="index, follow">
+  
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com">
+  
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="BLN Construction Pvt. Ltd | Road, Building & Bridge Construction in Nepal">
+    <meta property="og:description" content="Trusted construction company in Nepal specializing in roads, bridges, buildings, drainage, and material supply. Quality and on-time delivery guaranteed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg">
+    <meta property="og:site_name" content="BLN Construction Pvt. Ltd">
+  
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BLN Construction Pvt. Ltd | Road, Building & Bridge Construction in Nepal">
+    <meta name="twitter:description" content="Leading construction company in Nepal delivering quality road, bridge, and building projects with timely execution.">
+    <meta name="twitter:image" content="https://yourwebsite.com/og-image.jpg">
+    <meta name="twitter:site" content="@BLNConstructionNepal">
+  
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+  </head>
+  
+
+<body class="bg-gray-50 font-sans">
+
+<!-- 🌐 TOP BAR -->
+<div class="bg-gray-900 text-gray-200 text-sm py-2 border-b border-gray-800">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+    <!-- Social Icons -->
+    <div class="flex space-x-4 items-center">
+      <a href="#" class="hover:text-blue-400" title="Facebook">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+          <path d="M22 12A10 10 0 1 0 10.5 21.9v-7h-2v-3h2v-2c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.6l-.4 3h-2.2v7A10 10 0 0 0 22 12"/>
+        </svg>
+      </a>
+      <a href="#" class="hover:text-pink-400" title="Instagram">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+          <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.5a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"/>
+        </svg>
+      </a>
+    </div>
+    <!-- Contact -->
+    <div class="hidden sm:flex space-x-6">
+      <span>📞 +977-9848112745 || 9814500772 || 9844890038</span>
+      <span>✉ blnconstruction415@gmail.com</span>
+    </div>
+  </div>
+</div>
+
+<!-- 🔰 HEADER -->
+<header class="bg-white shadow sticky top-0 z-50" role="banner">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <!-- Logo -->
+    <div class="flex items-center space-x-3">
+      <a href="#home" class="flex items-center">
+        <img src="BLNLogo.jpg" class="w-16 h-16 rounded-full border shadow" alt="BLN Construction Logo">
+        <span class="ml-2 text-2xl font-bold text-gray-800">BLN Construction</span>
+      </a>
+    </div>
+
+    <!-- Hamburger Menu Button -->
+    <div class="md:hidden">
+      <button id="menu-btn" aria-label="Toggle Navigation Menu" class="text-gray-800 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav id="menu" class="hidden md:flex space-x-10 text-gray-800 font-semibold" role="navigation" aria-label="Main Menu">
+      <a href="#home" class="hover:text-blue-600 transition">Home</a>
+      <a href="#about" class="hover:text-blue-600 transition">About</a>
+      <a href="#services" class="hover:text-blue-600 transition">Services</a>
+      <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+      <a href="#team" class="hover:text-blue-600 transition">Our Team</a>
+    </nav>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <a href="#home" class="block px-4 py-2 hover:bg-gray-100 transition">Home</a>
+    <a href="#about" class="block px-4 py-2 hover:bg-gray-100 transition">About</a>
+    <a href="#services" class="block px-4 py-2 hover:bg-gray-100 transition">Services</a>
+    <a href="#projects" class="block px-4 py-2 hover:bg-gray-100 transition">Projects</a>
+    <a href="#team" class="block px-4 py-2 hover:bg-gray-100 transition">Our Team</a>
+  </div>
+</header>
+
+
+<!-- 🌟 HOME SECTION WITH SEO OPTIMIZATION -->
+<section id="home" class="relative bg-cover bg-center h-[600px] sm:h-[700px] md:h-[750px] flex items-center justify-center text-center" style="background-image: url('hero.jpg');">
+  
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 max-w-3xl px-4">
+    
+    <!-- Main Heading: H1 for SEO -->
+    <h1 class="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide leading-tight drop-shadow mb-4">
+      Leading Construction Company in Nepal<br>
+      Road, Bridge & Building Experts
+    </h1>
+    
+    <!-- Subheading / Description: SEO Friendly -->
+    <p class="text-gray-200 text-base sm:text-lg md:text-xl mb-6">
+      BLN Construction Pvt. Ltd delivers high-quality road construction, bridge building, drainage systems, and residential & commercial building projects across Nepal with engineering precision and modern innovation.
+    </p>
+  </div>
+  
+  <!-- Hidden Image with Alt for SEO -->
+  <img src="hero.jpg" alt="Road and bridge construction by BLN Construction Nepal" class="hidden">
+</section>
+
+<!-- ⭐ FEATURES SECTION -->
+<!-- 🌟 FEATURES SECTION WITH SEO OPTIMIZATION -->
+<section id="features" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+
+    <!-- Section Heading: H2 for SEO -->
+    <h2 class="text-3xl font-bold mb-12">
+      Why Choose BLN Construction
+    </h2>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <!-- TOP RATED -->
+      <article class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow hover:shadow-xl transition transform hover:-translate-y-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mb-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.947a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.286 3.947c.3.921-.755 1.688-1.54 1.118l-3.36-2.44a1 1 0 00-1.176 0l-3.36 2.44c-.784.57-1.838-.197-1.539-1.118l1.285-3.947a1 1 0 00-.364-1.118L2.975 9.374c-.784-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.286-3.947z"/>
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Top Rated Construction Services</h3>
+        <p class="text-gray-600">
+          BLN Construction is highly rated across Nepal for exceptional road, bridge, and building projects, delivering reliability and customer satisfaction.
+        </p>
+      </article>
+
+      <!-- BEST QUALITY -->
+      <article class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow hover:shadow-xl transition transform hover:-translate-y-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mb-4 text-green-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 2a1 1 0 00-.894.553L7.382 5H4a2 2 0 00-2 2v6a6 6 0 006 6h4a6 6 0 006-6V7a2 2 0 00-2-2h-3.382l-1.724-2.447A1 1 0 0010 2zm0 7a1 1 0 011 1v3a1 1 0 01-2 0v-3a1 1 0 011-1z" clip-rule="evenodd"/>
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Highest Quality Construction</h3>
+        <p class="text-gray-600">
+          We ensure top-quality construction using modern engineering techniques for roads, bridges, and buildings, guaranteeing long-lasting results.
+        </p>
+      </article>
+
+      <!-- LOW COST -->
+      <article class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow hover:shadow-xl transition transform hover:-translate-y-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mb-4 text-blue-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11V5a1 1 0 10-2 0v2a2 2 0 000 4v2a1 1 0 102 0v-2a2 2 0 000-4z"/>
+        </svg>
+        <h3 class="text-xl font-bold mb-2">Affordable & Competitive Pricing</h3>
+        <p class="text-gray-600">
+          Our construction services offer competitive pricing without compromising on quality, making infrastructure projects accessible for all clients.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!-- 🏗 ABOUT US SECTION WITH SEO OPTIMIZATION -->
+<section id="about" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Outer Container -->
+    <div class="bg-white rounded-3xl shadow-lg p-10 md:p-14">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+        <!-- LEFT: IMAGE -->
+        <figure class="w-full flex justify-center">
+          <div class="rounded-3xl overflow-hidden w-full max-w-sm h-[500px] bg-gray-200 shadow-md">
+            <img 
+              src="hero.jpg" 
+              alt="BLN Construction Team at Work" 
+              class="w-full h-full object-cover"
+              loading="lazy"
+            >
+          </div>
+        </figure>
+
+        <!-- RIGHT: CONTENT -->
+        <div class="space-y-6 text-center md:text-left">
+
+          <!-- Main Heading -->
+          <h2 class="text-4xl font-bold text-gray-900">
+            About BLN Construction
+          </h2>
+
+          <!-- Description with keywords -->
+          <p class="text-gray-700 leading-relaxed">
+            BLN Construction Pvt.Ltd is a leading construction company in Nepal, specializing in road construction, bridges, drainage systems, and high-quality construction material supply. We deliver durable and innovative infrastructure that supports community development and regional progress.
+          </p>
+
+          <p class="text-gray-700 leading-relaxed">
+            Our team combines engineering expertise with safety, innovation, and long-term reliability. Every project is executed with precision, ensuring structures that stand the test of time and serve generations to come.
+          </p>
+
+          <!-- CEO Message -->
+          <blockquote class="mt-6 border-l-4 border-yellow-500 pl-4">
+            <p class="italic text-gray-800">
+              “At BLN Construction Pvt.Ltd, every project is more than a job—it's a commitment to quality, integrity, and sustainable community development.”
+            </p>
+            <footer class="mt-2 font-semibold text-gray-900">
+              — Managing Director, BLN Construction Pvt.Ltd
+            </footer>
+          </blockquote>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Our Services  -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-14 tracking-wide">
+        Our Services
+      </h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+  
+        <!-- Road Construction -->
+        <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+          <div class="h-80 w-full overflow-hidden">
+            <img src="road.jpg"
+                 class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500 rounded-t-2xl">
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-3">Road Construction</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              High-quality road building solutions ensuring durability, safety, and smooth transportation.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Drainage Construction -->
+        <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+          <div class="h-80 w-full overflow-hidden">
+            <img src="drainage.jpg"
+                 class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500 rounded-t-2xl">
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-3">Drainage Construction</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Efficient drainage systems to prevent flooding and ensure proper water management.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Bridge Construction -->
+        <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+          <div class="h-80 w-full overflow-hidden">
+            <img src="bridge-construction-site.jpg"
+                 class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500 rounded-t-2xl">
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-3">Bridge Construction</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Strong and reliable bridge construction designed for long-term performance.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Material Supply -->
+        <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+          <div class="h-80 w-full overflow-hidden">
+            <img src="material.jpg"
+                 class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500 rounded-t-2xl">
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-3">Material Supply</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              High-grade materials including gravel, sand, and essential construction resources delivered reliably.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+ <!-- 🏗 PROJECTS SECTION WITH SEO OPTIMIZATION -->
+<section id="projects" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Section Heading -->
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-14 tracking-wide">
+      Our Latest Projects
+    </h2>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+      <article class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=800&q=80" 
+             alt="Bridge Construction Project by BLN Construction" 
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+             loading="lazy">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+          <h3 class="text-xl font-semibold text-white mb-2">Bridge Construction</h3>
+          <p class="text-sm text-white">Infrastructure Development Project</p>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1581090700227-5982f6dfc9a0?auto=format&fit=crop&w=800&q=80" 
+             alt="Road Expansion Project by BLN Construction" 
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+             loading="lazy">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+          <h3 class="text-xl font-semibold text-white mb-2">Road Expansion</h3>
+          <p class="text-sm text-white">Transportation Infrastructure Project</p>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1581091012184-c74df9141d5e?auto=format&fit=crop&w=800&q=80" 
+             alt="Drainage System Installation Project by BLN Construction" 
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+             loading="lazy">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+          <h3 class="text-xl font-semibold text-white mb-2">Drainage System</h3>
+          <p class="text-sm text-white">Water Management Infrastructure Project</p>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" 
+             alt="Material Supply for Construction Projects by BLN Construction" 
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+             loading="lazy">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+          <h3 class="text-xl font-semibold text-white mb-2">Material Supply</h3>
+          <p class="text-sm text-white">Construction Resources Project</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- 🏗 FEATURED CONSTRUCTION THEME SECTION -->
+<section class="relative overflow-hidden bg-white">
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-12 lg:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+
+      <!-- Left Side - Images -->
+      <div class="relative">
+        <div class="grid grid-cols-2 gap-4">
+
+          <!-- Top Left Image -->
+          <figure class="relative h-64 lg:h-80 overflow-hidden rounded-lg shadow-lg">
+            <img src="road.jpg" 
+                 alt="Construction workers working on a road project" 
+                 class="w-full h-full object-cover" 
+                 loading="lazy">
+          </figure>
+
+          <!-- Top Right Empty space for layout -->
+          <div class="relative"></div>
+
+          <!-- Bottom Left Empty space for layout -->
+          <div class="relative"></div>
+
+          <!-- Bottom Right Image -->
+          <figure class="relative h-64 lg:h-80 overflow-hidden rounded-lg shadow-lg -mt-16">
+            <img src="hero.jpg" 
+                 alt="Construction equipment and machinery on-site" 
+                 class="w-full h-full object-cover" 
+                 loading="lazy">
+          </figure>
+
+        </div>
+      </div>
+
+      <!-- Right Side - Content -->
+      <div class="space-y-6 text-center lg:text-left">
+        <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+          # BEST <span class="text-yellow-400">CONSTRUCTION</span> THEME
+        </h1>
+
+        <p class="text-gray-600 text-base lg:text-lg leading-relaxed max-w-2xl">
+          BLN Construction delivers top-quality infrastructure solutions with precision and reliability. 
+          From roads and bridges to drainage systems, our expert team ensures durable, long-lasting results 
+          that empower communities and foster sustainable growth.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="relative mt-12 lg:mt-20">
+    <!-- Yellow angled background -->
+    <div class="absolute inset-0 bg-yellow-400 transform -skew-y-1 origin-top-left"></div>
+
+    <div class="relative container mx-auto px-4 py-12 lg:py-16">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+
+        <!-- Projects -->
+        <div class="space-y-2">
+          <div class="text-4xl lg:text-5xl font-bold text-gray-800">598</div>
+          <div class="text-sm lg:text-base font-semibold text-gray-800 uppercase tracking-wider">Projects Completed</div>
+        </div>
+
+        <!-- Clients -->
+        <div class="space-y-2">
+          <div class="text-4xl lg:text-5xl font-bold text-gray-800">128</div>
+          <div class="text-sm lg:text-base font-semibold text-gray-800 uppercase tracking-wider">Happy Clients</div>
+        </div>
+
+        <!-- Success -->
+        <div class="space-y-2">
+          <div class="text-4xl lg:text-5xl font-bold text-gray-800">339</div>
+          <div class="text-sm lg:text-base font-semibold text-gray-800 uppercase tracking-wider">Successful Projects</div>
+        </div>
+
+        <!-- Awards -->
+        <div class="space-y-2">
+          <div class="text-4xl lg:text-5xl font-bold text-gray-800">109</div>
+          <div class="text-sm lg:text-base font-semibold text-gray-800 uppercase tracking-wider">Awards & Recognitions</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- 👥 Meet Our Team -->
+<section id="team" class="relative bg-gray-50 py-16 lg:py-24">
+
+  <!-- Background Text (decorative, not read by screen readers) -->
+  <div class="absolute left-8 top-1/4 text-9xl font-bold text-gray-200 opacity-30 select-none hidden lg:block" aria-hidden="true">
+      OUR TEAM
+  </div>
+
+  <div class="container mx-auto px-4">
+
+      <!-- Section Header -->
+      <div class="text-center mb-12">
+          <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+              OUR <span class="text-yellow-400">TEAM</span>
+          </h2>
+          <p class="text-gray-600 max-w-3xl mx-auto text-base lg:text-lg">
+              Meet our experienced and dedicated professionals who ensure every project is delivered with excellence, safety, and innovation.
+          </p>
+      </div>
+
+      <!-- Team Members Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6">
+
+          <!-- Team Member 1 -->
+          <div class="group">
+              <figure class="relative overflow-hidden bg-white rounded-t-lg shadow-lg">
+                  <img src="ManagingDirector.jpeg" 
+                       alt="Bhakta Bahadur Singh Thakuri, Managing Director of BLN Construction" 
+                       class="w-full h-80 object-cover object-top transform group-hover:scale-110 transition duration-500" 
+                       loading="lazy">
+              </figure>
+              <figcaption class="bg-gray-800 text-white text-center py-6 rounded-b-lg shadow-lg">
+                  <h3 class="text-xl font-bold mb-1">Bhakta Bahadur Singh Thakuri</h3>
+                  <p class="text-gray-400 text-sm">Managing Director</p>
+              </figcaption>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="group">
+              <figure class="relative overflow-hidden bg-white rounded-t-lg shadow-lg">
+                  <img src="manager.jpeg" 
+                       alt="Nischal Jung Thakuri, Manager of BLN Construction" 
+                       class="w-full h-80 object-cover transform group-hover:scale-110 transition duration-500" 
+                       loading="lazy">
+              </figure>
+              <figcaption class="bg-gray-800 text-white text-center py-6 rounded-b-lg shadow-lg">
+                  <h3 class="text-xl font-bold mb-1">Nischal Jung Thakuri</h3>
+                  <p class="text-gray-400 text-sm">Manager</p>
+              </figcaption>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="group">
+              <figure class="relative overflow-hidden bg-white rounded-t-lg shadow-lg">
+                  <img src="Accountant.jpeg" 
+                       alt="Pawan Khadka, Accountant at BLN Construction" 
+                       class="w-full h-80 object-cover object-top transform group-hover:scale-110 transition duration-500" 
+                       loading="lazy">
+              </figure>
+              <figcaption class="bg-gray-800 text-white text-center py-6 rounded-b-lg shadow-lg">
+                  <h3 class="text-xl font-bold mb-1">Pawan Khadka</h3>
+                  <p class="text-gray-400 text-sm">Accountant</p>
+              </figcaption>
+          </div>
+
+      </div>
+  </div>
+</section>
+
+
+<!-- 🌟 BEAUTIFUL FOOTER SECTION -->
+<footer class="bg-gray-900 text-gray-300 pt-16 pb-8" role="contentinfo">
+
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+
+    <!-- Company Info -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">BLN Construction Pvt.Ltd</h2>
+      <p class="text-gray-400 leading-relaxed">
+        Building strong foundations for tomorrow. We deliver high-quality construction
+        services including road construction, drainage systems, bridges, and material supply
+        across Nepal. Trusted by communities for excellence and safety.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#home" class="hover:text-yellow-400 transition" title="Go to Home Section">Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-400 transition" title="Learn About BLN Construction">About</a></li>
+        <li><a href="#services" class="hover:text-yellow-400 transition" title="Explore Our Services">Services</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400 transition" title="View Our Projects">Projects</a></li>
+        <li><a href="#team" class="hover:text-yellow-400 transition" title="Meet Our Team">Our Team</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Services -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">Our Services</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-yellow-400 transition" title="Road Construction Service">Road Construction</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition" title="Drainage Construction Service">Drainage Construction</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition" title="Bridge Construction Service">Bridge Construction</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition" title="Material Supply Service">Material Supply</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">Contact Us</h3>
+      <p class="text-gray-400 mb-2">📍 Banke, Nepal</p>
+      <p class="text-gray-400 mb-2">📞 +977-9848112745 | +977-9814500772 | +977-9844890038</p>
+      <p class="text-gray-400 mb-4">✉️ <a href="mailto:blnconstruction415@gmail.com" class="hover:text-yellow-400">blnconstruction415@gmail.com</a></p>
+
+      <!-- Social Icons -->
+      <div class="flex space-x-4 mt-4">
+        <a href="#" class="text-gray-400 hover:text-yellow-400 transition text-xl" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-400 transition text-xl" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-400 transition text-xl" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+    © 2025 BLN Construction Pvt.Ltd | All Rights Reserved.
+  </div>
+
+</footer>
+
+
+<!-- For Social Icons (FontAwesome) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+   <!-- Structured Data (JSON-LD for LocalBusiness) -->
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "BLN Construction Pvt. Ltd",
+      "image": "https://yourwebsite.com/logo.jpg",
+      "@id": "https://yourwebsite.com",
+      "url": "https://yourwebsite.com",
+      "telephone": "+977-9848112745",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Banke",
+        "addressLocality": "Nepalgunj",
+        "addressRegion": "Lumbini",
+        "postalCode": "00000",
+        "addressCountry": "NP"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.05,
+        "longitude": 81.62
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/BLNConstructionNepal",
+        "https://www.instagram.com/BLNConstructionNepal",
+        "https://www.tiktok.com/@BLNConstructionNepal"
+      ]
+    }
+    </script>
+  
+</body>
+</html>
